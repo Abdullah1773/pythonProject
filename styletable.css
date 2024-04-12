@@ -1,0 +1,79 @@
+*{
+    padding: 1px;
+    margin: 2px;
+    text-align: center;
+    }
+    table{
+    width:100%
+    }
+    .popup{
+    position: relative;
+    bottom: 750px;
+    display: none;
+    border: 2px solid #0c0c0d; /* Border style */
+    padding: 20px; /* Add padding for better spacing */
+    }
+    div{
+    border: 2px solid #0c0c0d;
+    background-color: #c6e0b4;
+    }
+    h1 {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500; /* Ensure h1 appears above images */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center the text horizontally */
+    }
+    img {
+    position: absolute; /* Add positioning */
+    top: 0;
+    }
+    img.left-image
+    {
+    left: 0; /* Position left image to the left */
+    }
+    img.right-image {
+    right: 0; /* Position right image to the right */
+    }
+    #addToArray-btn{
+    /*display: block; !* Make buttons block-level elements *!*/
+    margin-top: 170px ; /* Add margin to center the buttons horizontally */
+    }
+    #click-btn{
+    /*display: block; !* Make buttons block-level elements *!*/
+    margin-top: 170px ; /* Add margin to center the buttons horizontally */
+    }
+    #tablearea {
+    margin: 0 auto;
+    max-width: 800px; /* Adjust this value as needed */
+    overflow-x: auto;
+    }
+    table, th, td {
+    border: 2px solid #0c0c0d;
+    }
+    th, td {
+    padding: 8px;
+    text-align: center;
+    }
+    th {
+    background-color: #c6e0b4;
+    }
+    #activityNumber,
+    #outputArtifacts,
+    #inputArtifacts,
+    #methods
+    {
+    padding-left: 10px; /* Adjust the amount of indentation as needed */
+    }
+    #title,
+    #explanation,
+    #method1,
+    #method2,
+    #method3,
+    #h4
+    {
+    text-align: left;
+    padding-right: 10px; /* Adjust the amount of indentation as needed */
+    }
